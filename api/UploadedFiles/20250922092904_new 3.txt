@@ -1,0 +1,722 @@
+[
+    {
+        "name": "<p>An toàn lao động là gì?</p>",
+        "options": [
+            {
+                "Id": "b6d9abfe-98a7-4f16-a014-ecb037bd7361",
+                "Name": "Giải pháp phòng chống bệnh tật trong lao động",
+                "IsCorrect": null
+            },
+            {
+                "Id": "b2d6d280-a5ed-47c2-a03b-a16d1eb1f85f",
+                "Name": "Giải pháp phòng, chống tác động của yếu tố có hại đối với sức khỏe",
+                "IsCorrect": null
+            },
+            {
+                "Id": "2eb1dbe2-8add-4a0f-83dc-414e6b9549cd",
+                "Name": "Giải pháp phòng, chống các yếu tố nguy hiểm nhằm đảm bảo không xảy ra thương tật, tử vong trong quá trình lao động",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Mối nguy là gì?</p>",
+        "options": [
+            {
+                "Id": "32ca838b-c8a4-4d1b-8cd7-437924a48991",
+                "Name": "Là các nguồn có nguy cơ gây ra chấn thương và bệnh tật",
+                "IsCorrect": null
+            },
+            {
+                "Id": "14905a69-934c-419f-9e8f-96c782d3b03b",
+                "Name": "Là các yếu tố tâm lý trong công việc",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9c7d2c82-a947-4a58-bdb5-7812d513eb3a",
+                "Name": "Những yếu tố làm giảm năng suất làm việc",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9d91efe5-ad05-420c-ba11-1e90a4d4eb67",
+                "Name": "Các thiết bị văn phòng không hoạt động hiệu quả",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Theo quy định của pháp luật Việt Nam, cá nhân vi phạm quy định về an toàn lao động có thể chịu mức án phạt tù tối đa là bao nhiêu năm?</p>",
+        "options": [
+            {
+                "Id": "85c00470-1416-41f9-8135-2dd1ddacfdf4",
+                "Name": "5 năm",
+                "IsCorrect": null
+            },
+            {
+                "Id": "f2c5c266-71dc-488d-9f5d-6fd242789ed4",
+                "Name": "8 năm",
+                "IsCorrect": null
+            },
+            {
+                "Id": "3989bc7a-e3ab-4493-9158-8711d2cb5004",
+                "Name": "10 năm",
+                "IsCorrect": null
+            },
+            {
+                "Id": "256373b8-109d-453e-ae6d-ce93da407660",
+                "Name": "12 năm",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Theo Điều 3 Luật An toàn vệ sinh lao động năm 2015, yếu tố nguy hiểm là gì?</p>",
+        "options": [
+            {
+                "Id": "7fe6ac83-f6b3-4a38-9846-2d128dab5a8b",
+                "Name": "Yếu tố làm giảm năng suất lao động",
+                "IsCorrect": null
+            },
+            {
+                "Id": "b81092c8-2bd7-41b0-992d-d28e8105e46d",
+                "Name": "Yếu tố làm suy giảm sức khỏe người lao động",
+                "IsCorrect": null
+            },
+            {
+                "Id": "41d8afd3-6d79-4a05-8e25-5feb26bb599d",
+                "Name": "Yếu tố gây mất an toàn, làm tổn thương hoặc tử vong cho người lao động",
+                "IsCorrect": null
+            },
+            {
+                "Id": "48bf5dcc-4353-4bc7-8518-c52f1056a523",
+                "Name": "Yếu tố gây ảnh hưởng đến môi trường làm việc",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Theo bài học, an toàn lao động và vệ sinh lao động có ý nghĩa gì đối với xã hội?</p>",
+        "options": [
+            {
+                "Id": "5a25e0a0-77c9-4cd4-9883-9d5f7f06a0ce",
+                "Name": "Đảm bảo các thành viên trong xã hội phát triển toàn diện và góp phần thúc đẩy kinh tế xã hội",
+                "IsCorrect": null
+            },
+            {
+                "Id": "e4708442-bbb0-4400-b82b-8bd3ba2886c5",
+                "Name": "Chỉ đảm bảo an toàn cho người lao động trong nhà máy",
+                "IsCorrect": null
+            },
+            {
+                "Id": "2d0495c5-6706-4e2e-b46a-76a092e6ae8e",
+                "Name": "Tăng cường sự cạnh tranh giữa các công ty",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9dc5ba1e-90b0-49d8-9a58-bf0a2036197d",
+                "Name": "Giảm chi phí đào tạo nhân lực",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Theo Điều 5 Bộ luật Lao động 2019, Người lao động có quyền từ chối làm việc khi nào?</p>",
+        "options": [
+            {
+                "Id": "a7c5e1c0-891e-4abf-a1f8-344975b10657",
+                "Name": "Khi không muốn thực hiện công việc hiện tại",
+                "IsCorrect": null
+            },
+            {
+                "Id": "f4106f3c-b5c0-444b-82ac-771d82c5ee3b",
+                "Name": "Khi thấy rõ nguy cơ tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình",
+                "IsCorrect": null
+            },
+            {
+                "Id": "0b6ca49e-ffdf-4560-b933-97e39bd0b1bb",
+                "Name": "Khi không hài lòng với nội quy công ty",
+                "IsCorrect": null
+            },
+            {
+                "Id": "61fa1e1d-e32e-40bd-96f0-8d7a0f432021",
+                "Name": "Khi cảm thấy công việc không phù hợp với kỹ năng của mình",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Anh Hưng làm thêm giờ vào một ngày trong tuần, từ 17h30 đến 23h30. Theo quy định của FSOFT, thời gian làm thêm này có vi phạm giới hạn thời gian làm thêm trong một ngày không?</p>",
+        "options": [
+            {
+                "Id": "fb483a36-fb25-49ea-949b-7710a7a8b967",
+                "Name": "Có, vì anh làm thêm 4 tiếng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "59bb052b-4701-49d6-95cd-aef67589d01b",
+                "Name": "Có, vì anh làm thêm hơn 4 tiếng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "d2578468-2592-45ad-bf13-46d848018a6d",
+                "Name": "Không, vì thời gian làm thêm chỉ 3 tiếng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "0bb55b2a-fcd8-403a-9bc4-ada048605ae8",
+                "Name": "Không, nếu đã được cấp trên phê duyệt",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Anh David là người lao động nước ngoài làm việc tại FSOFT Việt Nam. Theo quy định, ngoài các ngày nghỉ lễ của Việt Nam, anh còn được nghỉ thêm vào dịp:</p>",
+        "options": [
+            {
+                "Id": "9e123f88-9073-4617-9c59-c41f5e11e072",
+                "Name": "Quốc khánh và Tết cổ truyền của nước anh",
+                "IsCorrect": null
+            },
+            {
+                "Id": "93b5c296-5d49-44e7-9124-5309a935d752",
+                "Name": "Ngày Quốc tế Lao động và Quốc khánh của nước anh",
+                "IsCorrect": null
+            },
+            {
+                "Id": "59ca081c-a0e4-4d37-a4ac-a10db11df5dd",
+                "Name": "Tết Âm lịch và Giỗ Tổ Hùng Vương",
+                "IsCorrect": null
+            },
+            {
+                "Id": "6e5fe396-2721-4e1d-8b6d-59df7abc1103",
+                "Name": "Tết Dương lịch và Tết cổ truyền của nước anh",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Theo Nội quy lao động của FSOFT, tổng thời gian làm việc trong một tuần của CBNV quy định không quá:</p>",
+        "options": [
+            {
+                "Id": "861157aa-addd-4902-8e2d-f20e219daf90",
+                "Name": "40 giờ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "3851f341-d3ee-4e93-9107-8c87e0a100d3",
+                "Name": "44 giờ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "1e38c6ce-044e-4aa9-96b1-077a2920871f",
+                "Name": "48 giờ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "bcb9e0e6-0a69-408d-aacd-6f383ca85411",
+                "Name": "50 giờ",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Chị Minh bị sếp yêu cầu đi ăn tối riêng với lời hứa sẽ giúp đỡ công việc của chị. Nếu chị từ chối, sếp ngụ ý rằng công việc của chị có thể gặp khó khăn. Đây là dạng quấy rối tình dục nào?</p>",
+        "options": [
+            {
+                "Id": "cb549b07-338f-4f6c-8450-8910809cd2bc",
+                "Name": "Quấy rối phi lời nói",
+                "IsCorrect": null
+            },
+            {
+                "Id": "487e4d50-1013-416d-9a17-673b9bf390d7",
+                "Name": "Quấy rối bằng lời nói",
+                "IsCorrect": null
+            },
+            {
+                "Id": "c88e6feb-2d41-4956-aed9-2386497f0d43",
+                "Name": "Quấy rối bằng hành vi thể chất",
+                "IsCorrect": null
+            },
+            {
+                "Id": "0635c6ee-7edb-443b-83c8-37830ec0ce58",
+                "Name": "Quấy rối dưới hình thức trao đổi",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Cô Thảo là nhân viên FSOFT đang mang thai ở tháng thứ 8. Công ty có thể yêu cầu cô làm thêm giờ trong trường hợp nào?</p>",
+        "options": [
+            {
+                "Id": "b8282720-2bf5-4e37-b735-95817cafab86",
+                "Name": "Khi có nhu cầu làm thêm giờ từ công ty",
+                "IsCorrect": null
+            },
+            {
+                "Id": "f58fee98-fcc4-42a0-9a1d-83830affe868",
+                "Name": "Khi cô Thảo đồng ý làm thêm",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9d29fa8c-159c-447c-9d18-147da41467e0",
+                "Name": "Khi có sự phê duyệt từ cấp trên",
+                "IsCorrect": null
+            },
+            {
+                "Id": "3f1a1ab4-6423-4caa-8dae-36c963bbd024",
+                "Name": "Không được yêu cầu làm thêm giờ",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>\"Mối nguy hại\" được hiểu là gì khi xem xét tác động lâu dài đến sức khỏe và an toàn của nhân viên?</p>",
+        "options": [
+            {
+                "Id": "4dd81858-a8d3-4efb-8f2d-bfb217bdce19",
+                "Name": "Những điều kiện làm việc gây mất tập trung tạm thời, có thể khắc phục dễ dàng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "30bc9805-3773-4ce2-a0a7-df9e1ecda27e",
+                "Name": "Yếu tố hoặc điều kiện tiềm ẩn có khả năng gây ra thương tích nghiêm trọng hoặc bệnh tật lâu dài mà không thể nhận thấy ngay lập tức",
+                "IsCorrect": null
+            },
+            {
+                "Id": "cd0533c3-d1df-4b9d-8455-b10b19680ecd",
+                "Name": "Các tình huống liên quan đến thiết bị văn phòng gây hỏng hóc nhẹ nhưng không ảnh hưởng đến sức khỏe",
+                "IsCorrect": null
+            },
+            {
+                "Id": "bd144e1c-25ba-443d-9795-5d83dec47f58",
+                "Name": "Điều kiện môi trường làm việc chỉ ảnh hưởng đến năng suất làm việc ngắn hạn",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Ánh sáng máy tính sẽ ảnh hưởng như thế nào?</p>",
+        "options": [
+            {
+                "Id": "0431e41a-4981-4284-84ec-7bda704bec73",
+                "Name": "Căng thẳng thần kinh, mất ngủ, da mặt lão hóa, cận thị",
+                "IsCorrect": null
+            },
+            {
+                "Id": "d68e6d67-a5f4-4d60-979b-806e94351ca6",
+                "Name": "Giúp cải thiện tâm trạng và năng suất làm việc",
+                "IsCorrect": null
+            },
+            {
+                "Id": "130d4438-3391-4641-b7a7-43081bcd15b9",
+                "Name": "Căng thẳng thần kinh, đau dạ dày",
+                "IsCorrect": null
+            },
+            {
+                "Id": "86024b39-1c19-4cbb-95e9-57457f3f80b2",
+                "Name": "Cải thiện tâm trạng nhưng không ảnh hưởng đến hiệu suất làm việc",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Tư thế mang vác vật nặng không đúng sẽ dẫn đến điều gì?</p>",
+        "options": [
+            {
+                "Id": "d0c7b724-0567-4d98-b496-59604918e9b4",
+                "Name": "Ảnh hưởng về xương khớp",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9ecca964-2c32-44e0-9bd4-0927bc28a8f5",
+                "Name": "Ảnh hưởng tiêu hóa",
+                "IsCorrect": null
+            },
+            {
+                "Id": "648cea3d-4684-47c5-9398-743b81d5d1b7",
+                "Name": "Ảnh hưởng thần kinh",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Các biện pháp an toàn nào cần được thực hiện khi xử lý các sản phẩm hóa học văn phòng như mực in và dung môi tẩy rửa?</p>",
+        "options": [
+            {
+                "Id": "64ccb807-4481-41cd-b44f-2daf0d0fb22a",
+                "Name": "Để mực in và dung môi trong khu vực khô và nhiều ánh sáng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "26256110-5291-4998-b26b-de6981f14bf4",
+                "Name": "Bảo quản hóa chất trong bình kín và không để gần nguồn nhiệt hoặc lửa",
+                "IsCorrect": null
+            },
+            {
+                "Id": "b0a180ad-1a12-4cf8-b153-43e7a14661d2",
+                "Name": "Không cần biện pháp nào đặc biệt, chỉ cần rửa tay sau khi sử dụng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "127b6e49-2a8e-49c4-89bf-31c94b156154",
+                "Name": "Đặt dung môi tẩy rửa gần nguồn điện",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Trong một cuộc họp, Cuder A vô tình làm đổ nước lên ổ cắm điện. Cuder nên làm ngay lập tức?</p>",
+        "options": [
+            {
+                "Id": "e3539033-b73d-4fdd-97d7-1c49c26806b7",
+                "Name": "Rút phích cắm điện ngay lập tức",
+                "IsCorrect": null
+            },
+            {
+                "Id": "bb16ba37-a80b-4996-a9d2-b6fc0f792d6c",
+                "Name": "Lau khô ổ cắm và tiếp tục cuộc họp",
+                "IsCorrect": null
+            },
+            {
+                "Id": "4724e686-22bd-40e3-b1ba-3de23798514a",
+                "Name": "Thông báo cho tạp vụ và chờ họ xử lý",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Trong khi làm việc, bạn nghe thấy tiếng kêu lạ từ máy photocopy. Điều gì nên được thực hiện?</p>",
+        "options": [
+            {
+                "Id": "d454a5ca-23c6-4143-be69-e00950fccc3c",
+                "Name": "Tiếp tục sử dụng máy photocopy bình thường",
+                "IsCorrect": null
+            },
+            {
+                "Id": "4c3b63cc-fead-4b35-92e1-3ed3881161a4",
+                "Name": "Tắt máy photocopy và thông báo cho bộ phận kỹ thuật",
+                "IsCorrect": null
+            },
+            {
+                "Id": "b52cd791-3fce-4351-8941-a27da7be5049",
+                "Name": "Cố gắng tự sửa máy photocopy do đây là lỗi đơn giản",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Một nhân viên làm việc gần cửa sổ, cảm thấy nóng bức trong khi nhân viên khác gần điều hòa lại thấy lạnh. Bạn nên khuyên họ làm gì?</p>",
+        "options": [
+            {
+                "Id": "d7c568c7-156f-4f12-8446-1acb67316cbe",
+                "Name": "Tắt điều hòa và mở cửa sổ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "59b2f11a-9979-4f40-961a-6ded195ae3ab",
+                "Name": "Gọi bộ phận kĩ thuật để điều chỉnh các ống thông gió và nhiệt độ văn phòng",
+                "IsCorrect": null
+            },
+            {
+                "Id": "9356d31b-1c5a-463e-af66-6867e56547fd",
+                "Name": "Mặc thêm áo hoặc mở quạt để tự điều chỉnh nhiệt độ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "7ae70330-0322-4e2d-9b38-3933d8fe2eac",
+                "Name": "Chuyển chỗ ngồi để tạo sự thoải mái hơn",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Trong khi sử dụng máy tính, một nhân viên cảm thấy mỏi mắt. Biện pháp nào nên được thực hiện để giảm thiểu tình trạng này?</p>",
+        "options": [
+            {
+                "Id": "efe212ad-e47f-4bad-81ef-953c60f35bc3",
+                "Name": "Đeo kính bảo hộ mắt",
+                "IsCorrect": null
+            },
+            {
+                "Id": "290da793-18c9-4c99-bc3e-25ab1147d690",
+                "Name": "Điều chỉnh độ sáng của màn hình và nghỉ ngơi mắt thường xuyên theo quy tắc 20-20-20",
+                "IsCorrect": null
+            },
+            {
+                "Id": "d0c93d56-b4cb-46a3-ae05-56c445d520af",
+                "Name": "Thay đổi vị trí ngồi đến chỗ có ánh sáng tốt hơn",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Biện pháp nào có thể giúp ngăn ngừa tình huống vật văng bắn khi có rung động trong văn phòng?</p>",
+        "options": [
+            {
+                "Id": "7b1703cf-6d3f-4a0e-bb07-dc5d144a6256",
+                "Name": "Đảm bảo đồ đạc được sắp xếp chắc chắn và không đặt vật nặng trên cao",
+                "IsCorrect": null
+            },
+            {
+                "Id": "2c58af03-288a-4e5f-9ad7-945d0ccc1b1e",
+                "Name": "Để các vật nặng trên giá cao do các vật nặng khó di chuyển",
+                "IsCorrect": null
+            },
+            {
+                "Id": "e8c26d73-e1c1-4103-a6ed-0a0e24e3dc09",
+                "Name": "Tạo ra rung động nhỏ trong văn phòng để kiểm tra mức độ an toàn của đồ đạc",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Có bao nhiêu biện pháp quản lý và kiểm soát mối nguy?</p>",
+        "options": [
+            {
+                "Id": "30e98bc5-84fd-4bc3-ae48-63c4de214048",
+                "Name": "3",
+                "IsCorrect": null
+            },
+            {
+                "Id": "6d5e194b-e4e4-40d8-a845-79422cc454cf",
+                "Name": "4",
+                "IsCorrect": null
+            },
+            {
+                "Id": "0afca3bc-6178-4605-9e0c-41e362aa56fb",
+                "Name": "5",
+                "IsCorrect": null
+            },
+            {
+                "Id": "5561457d-7206-4cb8-8d30-7235ee48bdc4",
+                "Name": "6",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Biện pháp nào sau đây là cách sử dụng thiết bị bảo vệ để giảm thiểu mối nguy lao động khi không thể loại bỏ được mối nguy?</p>",
+        "options": [
+            {
+                "Id": "c8adeacd-a5d9-4510-8ab3-e4f22d77fee7",
+                "Name": "Biện pháp kiểm soát kỹ thuật",
+                "IsCorrect": null
+            },
+            {
+                "Id": "38f8b4a0-a4d2-4e2b-96ed-5c69dc8f46d2",
+                "Name": "Biện pháp hành chính",
+                "IsCorrect": null
+            },
+            {
+                "Id": "276fbcbb-4604-40c3-832e-5c50e975ea61",
+                "Name": "Biện pháp bảo hộ cá nhân",
+                "IsCorrect": null
+            },
+            {
+                "Id": "18a3e33a-40b4-4d2e-aaea-cef8aa1f7736",
+                "Name": "Biện pháp thay thế",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Biện pháp nào sau đây giúp kiểm soát rủi ro liên quan đến thiết bị máy móc trong văn phòng?</p>",
+        "options": [
+            {
+                "Id": "a15e9c37-e6a6-44ac-adf6-f1ac4f4d67fd",
+                "Name": "Đặt biển cảnh báo ở các khu vực nguy hiểm",
+                "IsCorrect": null
+            },
+            {
+                "Id": "ba6d15ed-6458-4aa3-ac34-309fb24ebf4c",
+                "Name": "Cải tiến thiết bị máy móc để giảm độ rung và tiếng ồn",
+                "IsCorrect": null
+            },
+            {
+                "Id": "f0367fee-3e4e-4642-88c8-944426c15c9e",
+                "Name": "Thay thế máy móc cũ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "4c7e677d-ae20-420c-94cb-230be6ac4b47",
+                "Name": "Cả A, B và C đều đúng",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Khi nào nên áp dụng biện pháp bảo hộ cá nhân trong công tác an toàn lao động?</p>",
+        "options": [
+            {
+                "Id": "16c81105-e321-4a63-b035-82ca08b11d1b",
+                "Name": "Khi không thể loại bỏ hoặc thay thế mối nguy",
+                "IsCorrect": null
+            },
+            {
+                "Id": "509a5dab-c3aa-4601-827d-ebc479331868",
+                "Name": "Khi có sự cố xảy ra",
+                "IsCorrect": null
+            },
+            {
+                "Id": "03581136-754c-4d8e-a070-e63e5f9665fb",
+                "Name": "Khi nhân viên không tuân thủ quy định an toàn",
+                "IsCorrect": null
+            },
+            {
+                "Id": "fee0a0b8-6bcd-4d5a-8064-46f1bc00c34a",
+                "Name": "Khi có nguồn nguy hiểm quá mức cần thiết",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Để giảm thiểu nguy cơ điện giật cho nhân viên, công ty đã lắp đặt thiết bị ngắt mạch tự động trong hệ thống điện của văn phòng. Đây là biện pháp nào?</p>",
+        "options": [
+            {
+                "Id": "d9128a1a-fba1-48e7-bfea-4ad6c1c08c5f",
+                "Name": "Biện pháp loại bỏ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "e35f5afa-4b2f-4225-b6dd-250e513f3031",
+                "Name": "Biện pháp hành chính",
+                "IsCorrect": null
+            },
+            {
+                "Id": "409e7fcf-ad86-4707-bc1f-f32378cea58b",
+                "Name": "Biện pháp kiểm soát kỹ thuật",
+                "IsCorrect": null
+            },
+            {
+                "Id": "2ad8a68f-8e43-448f-9a7c-4f6db52f447e",
+                "Name": "Biện pháp bảo hộ cá nhân",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Máy photocopy hoạt động liên tục gây ồn ào đến khu vực làm việc xung quanh. Công ty quyết định chuyển máy photocopy sang một phòng riêng biệt. Đây là biện pháp nào?</p>",
+        "options": [
+            {
+                "Id": "1a16c90a-202e-4e65-bff0-7606857845c2",
+                "Name": "Biện pháp loại bỏ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "4f6726b0-6758-4574-ba99-93afdc87e679",
+                "Name": "Biện pháp thay thế",
+                "IsCorrect": null
+            },
+            {
+                "Id": "bca0403e-158a-4333-a903-2a958417a4fc",
+                "Name": "Biện pháp bảo hộ cá nhân",
+                "IsCorrect": null
+            },
+            {
+                "Id": "93f7f918-f7f0-4d95-ba8e-6368df1680af",
+                "Name": "Biện pháp kiểm soát kỹ thuật",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Trong môi trường có tiếng ồn cao, công ty đã cung cấp tai nghe chống ồn cho nhân viên để bảo vệ thính giác. Đây là biện pháp nào?</p>",
+        "options": [
+            {
+                "Id": "8b6ac37e-bd43-4fcc-b232-ee2b8a1db6d4",
+                "Name": "Biện pháp loại bỏ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "5a630b79-7248-4a11-8fd1-78a2be002f62",
+                "Name": "Biện pháp thay thế",
+                "IsCorrect": null
+            },
+            {
+                "Id": "dcf6f72b-9828-4378-8ad6-b89257321f3f",
+                "Name": "Biện pháp bảo hộ cá nhân",
+                "IsCorrect": null
+            },
+            {
+                "Id": "e5d147db-27aa-4fa4-bd34-4768dbe1c3bb",
+                "Name": "Biện pháp kiểm soát kỹ thuật",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Trong thời gian bảo trì hệ thống điều hòa, nhân viên được khuyến khích mặc quần áo thoáng mát và làm việc tại các khu vực có quạt tản nhiệt. Biện pháp công ty áp dụng thuộc loại nào?</p>",
+        "options": [
+            {
+                "Id": "c116d5d2-9927-4e98-9f70-9c42141e1be5",
+                "Name": "Biện pháp thay thế",
+                "IsCorrect": null
+            },
+            {
+                "Id": "52f008e0-5bdf-4ac2-bda1-7899b2708602",
+                "Name": "Biện pháp hành chính",
+                "IsCorrect": null
+            },
+            {
+                "Id": "eca5053d-f61b-47da-af5a-c16b22294b24",
+                "Name": "Biện pháp bảo hộ cá nhân",
+                "IsCorrect": null
+            },
+            {
+                "Id": "e2ec3071-01eb-4772-8319-4b6914a66d23",
+                "Name": "Biện pháp kiểm soát kỹ thuật",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Nhằm bảo vệ nhân viên khỏi tác hại của ánh sáng xanh từ màn hình máy tính, công ty đã khuyến khích sử dụng thiết bị bảo hộ cá nhân nào dưới đây?</p>",
+        "options": [
+            {
+                "Id": "dd92dfcd-436e-4fd9-8ba3-c9df64f24c0b",
+                "Name": "Kính bảo vệ mắt có lọc ánh sáng xanh",
+                "IsCorrect": null
+            },
+            {
+                "Id": "79ac9340-d38b-41eb-8521-972b831eca49",
+                "Name": "Kính bảo hộ",
+                "IsCorrect": null
+            },
+            {
+                "Id": "6addce79-887e-4ff1-939c-07c5e261a9ec",
+                "Name": "Bàn ghế egonomic",
+                "IsCorrect": null
+            },
+            {
+                "Id": "f07b7e2e-6c1c-4cbc-bb57-138c318ca5a8",
+                "Name": "Khẩu trang",
+                "IsCorrect": null
+            }
+        ]
+    },
+    {
+        "name": "<p>Biển cảnh báo an toàn lao động được sử dụng tại nơi làm việc nhằm mục đích gì?</p>",
+        "options": [
+            {
+                "Id": "84f0b4df-8d58-468f-bfed-8e3107db617a",
+                "Name": "Chỉ dẫn nhân viên thực hiện các công việc cụ thể",
+                "IsCorrect": null
+            },
+            {
+                "Id": "09a4d2fe-51d2-47c1-893b-00238d0d2127",
+                "Name": "Cảnh báo về các mối nguy hiểm và nhắc nhở các biện pháp phòng ngừa an toàn",
+                "IsCorrect": null
+            },
+            {
+                "Id": "db017092-2c10-4ce2-894c-31bb0cad5928",
+                "Name": "Thông báo lịch trình công việc hàng ngày",
+                "IsCorrect": null
+            },
+            {
+                "Id": "ab7bfd57-19b2-4f34-8813-1b4e54ad270e",
+                "Name": "Khuyến khích nhân viên thực hiện một công việc cụ thể",
+                "IsCorrect": null
+            }
+        ]
+    }
+]

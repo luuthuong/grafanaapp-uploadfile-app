@@ -110,8 +110,8 @@ services:
 
   api:
     build:
-      context: ../IngestionApi
-      dockerfile: ../IngestionApi/Dockerfile
+      context: ../api
+      dockerfile: ../api/Dockerfile
     container_name: grafanaapp-ingestion-api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
