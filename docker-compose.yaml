@@ -1,0 +1,138 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: keycloak-postgres
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak123
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - grafana-app-network
+    restart: unless-stopped
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: keycloak
+    environment:
+      # Database configuration
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloak123
+      
+      # Admin user
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin123
+      
+      # Production settings
+      KC_HOSTNAME: localhost
+      KC_HOSTNAME_PORT: 8080
+      KC_HOSTNAME_STRICT: false
+      KC_HOSTNAME_STRICT_HTTPS: false
+      KC_HTTP_ENABLED: true
+      KC_HEALTH_ENABLED: true
+      KC_METRICS_ENABLED: true
+    command: start-dev
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    networks:
+      - grafana-app-network
+    restart: unless-stopped
+  
+  keycloak-setup:
+    image: alpine:latest
+    container_name: keycloak-setup
+    depends_on:
+      - keycloak
+    volumes:
+      - ./setup-keycloak-realm-docker.sh:/setup-keycloak-realm.sh
+    networks:
+      - grafana-app-network
+    entrypoint: ["/bin/sh", "-c"]
+    command: 
+      - |
+        # Install required packages
+        apk add --no-cache curl jq bash
+        # Run the setup script
+        bash /setup-keycloak-realm.sh
+    restart: "no"
+
+  grafana:
+    depends_on:
+      - keycloak
+      - keycloak-setup
+    extends:
+      file: .config/docker-compose-base.yaml
+      service: grafana
+    environment:
+      # Basic settings
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+      - GF_SECURITY_DISABLE_BRUTE_FORCE_LOGIN_PROTECTION=true
+      
+      # Keycloak OAuth settings
+      - GF_AUTH_GENERIC_OAUTH_ENABLED=true
+      - GF_AUTH_GENERIC_OAUTH_NAME=Keycloak
+      - GF_AUTH_GENERIC_OAUTH_CLIENT_ID=grafana
+      - GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET=grafana-secret
+      - GF_AUTH_GENERIC_OAUTH_SCOPES=openid email profile
+      - GF_AUTH_GENERIC_OAUTH_AUTH_URL=http://localhost:8080/realms/grafana/protocol/openid-connect/auth
+      - GF_AUTH_GENERIC_OAUTH_TOKEN_URL=http://keycloak:8080/realms/grafana/protocol/openid-connect/token
+      - GF_AUTH_GENERIC_OAUTH_API_URL=http://keycloak:8080/realms/grafana/protocol/openid-connect/userinfo
+      - GF_AUTH_GENERIC_OAUTH_ALLOW_SIGN_UP=true
+      - GF_AUTH_GENERIC_OAUTH_AUTO_LOGIN=false
+      - GF_AUTH_GENERIC_OAUTH_USE_PKCE=true
+      - GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH=name
+      - GF_AUTH_GENERIC_OAUTH_EMAIL_ATTRIBUTE_PATH=email
+      - GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH=contains(roles[*], 'grafanaadmin') && 'GrafanaAdmin' || contains(roles[*], 'admin') && 'Admin' || contains(roles[*], 'editor') && 'Editor' || 'Viewer'
+      - GF_LOG_FILTERS=oauth:debug
+      
+      # Plugin settings
+      - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=token-verifier-app
+      
+      # CORS and security
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_AUTH_ANONYMOUS_ENABLED=false
+      
+      # Server settings
+      - GF_SERVER_ROOT_URL=http://localhost:3000    
+
+    networks:
+      - grafana-app-network
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ../IngestionApi
+      dockerfile: ../IngestionApi/Dockerfile
+    container_name: grafanaapp-ingestion-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=postgres;Username=keycloak;Password=keycloak123;Timeout=10;SslMode=Prefer
+      - Keycloak__Authority=http://keycloak:8080/realms/grafana
+      - Keycloak__ClientId=grafanaapp-api
+      - Keycloak__ClientSecret=grafanaapp-secret
+      - Keycloak__RequireHttpsMetadata=false
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+    volumes:
+      - .data:/app/UploadedFiles
+    networks:
+      - grafana-app-network
+    restart: unless-stopped
+networks:
+  grafana-app-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
